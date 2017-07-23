@@ -16,3 +16,5 @@ Spree.config do |config|
 end
 
 Spree.user_class = "Spree::User"
+Spree::Frontend::Config[:locale] = 'es-CO'
+Spree::Backend::Config[:locale] = 'es-CO'
