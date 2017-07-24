@@ -1,0 +1,23 @@
+#spree-header{
+    background-image: url('http://preview.ibb.co/f7yLja/office_594132_19202.jpg') !important;
+    background-position: 0% !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    background-origin: content-box !important;
+    background-clip: content-box !important;
+    background-color: rgba(211, 211, 211, 0.5) !important;
+}
+
+.header_phone{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 14px;
+    padding-bottom: 10px;
+ color:white;
+ font-weight: bold;
+ font-family: monospace;
+}
+
+
