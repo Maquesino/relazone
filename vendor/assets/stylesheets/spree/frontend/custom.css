@@ -1,5 +1,5 @@
 #spree-header{
-    background-image: url('http://preview.ibb.co/f7yLja/office_594132_19202.jpg') !important;
+    background-image: url('https://cdn.pixabay.com/photo/2016/12/09/08/09/texture-1893788_960_720.jpg') !important;
     background-position: 0% !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -20,4 +20,13 @@
  font-family: monospace;
 }
 
+#sidebar{
+ background-image: url("https://cdn.pixabay.com/photo/2016/12/09/08/09/texture-1893788_960_720.jpg");
+color:white;
+ font-weight: bold;
+ font-family: monospace;
+}
 
+#sidebar .list-group{
+   color:black;  
+}
