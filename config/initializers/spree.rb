@@ -2,7 +2,7 @@ Spree.config do |config|
 
   config.logo = 'logo.png'
   config.admin_interface_logo = 'logo.png'
-  config.default_country_id = 157
+ config.default_country_id = 157
 
 Spree::Money.class_eval do
     def to_s
@@ -18,7 +18,7 @@ Spree::Money.class_eval do
 Money::Currency.register({
   :priority        => 1,
   :iso_code        => "COP",
-  :iso_numeric     => country.id,
+  :iso_numeric     =>  157,
   :name            => "Colombia",
   :symbol          => "$ ",
   :subunit         => "Peso",
