@@ -83,3 +83,4 @@ production:
   database: realmzone_production
   username: realmzone
   password: <%= ENV['REALMZONE_DATABASE_PASSWORD'] %>
+  host: localhost
