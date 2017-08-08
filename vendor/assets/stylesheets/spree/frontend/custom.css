@@ -30,3 +30,7 @@ color:white;
 #sidebar .list-group{
    color:black;  
 }
+
+#sidebar_products_search{
+   visibility: hidden;  
+}
