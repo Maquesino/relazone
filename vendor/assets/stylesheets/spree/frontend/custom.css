@@ -34,3 +34,9 @@ color:white;
 #sidebar_products_search{
    visibility: hidden;  
 }
+
+.footer_info {
+   font-size: 150%;
+   color:black;
+   background-color:#C12957;  
+}

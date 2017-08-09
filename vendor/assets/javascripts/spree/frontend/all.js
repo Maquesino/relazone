@@ -10,3 +10,6 @@
 
 //= require_tree .
 //= require spree/frontend/spree_i18n
+//= require spree/frontend/spree_multi_currency
+//= require spree/frontend/spree_recently_viewed
+//= require spree/frontend/spree_wishlist

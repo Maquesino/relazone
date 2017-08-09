@@ -1,9 +1,10 @@
 Spree.config do |config|
-
+  
   config.logo = 'logo.png'
   config.admin_interface_logo = 'logo.png'
- config.default_country_id = 157
-
+  country = Spree::Country.find_by_name('Colombia')
+  config.default_country_id = country.id if country.present?
+  config.checkout_zone = country.id
 Spree::Money.class_eval do
     def to_s
       @money.format.gsub(/,00/, "")
@@ -18,7 +19,7 @@ Spree::Money.class_eval do
 Money::Currency.register({
   :priority        => 1,
   :iso_code        => "COP",
-  :iso_numeric     =>  157,
+  :iso_numeric     =>  country.id,
   :name            => "Colombia",
   :symbol          => "$ ",
   :subunit         => "Peso",
@@ -26,5 +27,8 @@ Money::Currency.register({
   :separator       => ".",
   :delimiter       => ","
 })
-
+Spree::Price.update_all(currency: 'COP')
+Spree.user_class = "Spree::User"
+Spree::Frontend::Config[:locale] = 'es-CO'
+Spree::Backend::Config[:locale] = 'es-CO' 
 end
