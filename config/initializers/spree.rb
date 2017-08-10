@@ -1,6 +1,5 @@
 Spree.config do |config|
-  
-  config.logo = 'logo.png'
+    config.logo = 'logo.png'
   config.admin_interface_logo = 'logo.png'
   country = Spree::Country.find_by_name('Colombia')
   config.default_country_id = country.id if country.present?

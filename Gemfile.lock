@@ -45,6 +45,15 @@ GIT
       spree_core (~> 3.1.0.beta)
 
 GIT
+  remote: git://github.com/spree-contrib/spree_slider.git
+  revision: ea8aff9c00c346e4075c55f588688263d9152e0d
+  branch: 3-1-stable
+  specs:
+    spree_slider (3.1.0)
+      spree_backend (>= 3.1.0.beta)
+      spree_core (>= 3.1.0.beta)
+
+GIT
   remote: git://github.com/spree-contrib/spree_social.git
   revision: 79fa888b00efad92a9c391512d94aa4b7f438679
   specs:
@@ -475,6 +484,7 @@ DEPENDENCIES
   spree_i18n!
   spree_multi_currency!
   spree_recently_viewed!
+  spree_slider!
   spree_social!
   spree_wishlist!
   spring

@@ -10,6 +10,7 @@ gem 'spree_wishlist', github: 'spree-contrib/spree_wishlist'
 gem 'spree_email_to_friend', github: 'spree-contrib/spree_email_to_friend'
 gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
 gem 'spree_social', github: 'spree-contrib/spree_social'
+gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-1-stable'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record

@@ -1,0 +1,1 @@
+insert_before :homepage_products, 'shared/featured'
