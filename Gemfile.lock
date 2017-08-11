@@ -1,4 +1,13 @@
 GIT
+  remote: git://github.com/netguru/spree_payu_integration.git
+  revision: 2704a600b0b87598df51847b1ca7b0eb7bd3f05b
+  specs:
+    spree_payu_integration (3.0.0)
+      openpayu (~> 0.1.2)
+      spree_core (>= 2.3.0)
+      spree_frontend (>= 2.3.0)
+
+GIT
   remote: git://github.com/spree-contrib/spree_email_to_friend.git
   revision: a4092bee14dae36af21db1c4a325de4710bbf582
   specs:
@@ -269,6 +278,9 @@ GEM
     omniauth-twitter (1.4.0)
       omniauth-oauth (~> 1.1)
       rack
+    openpayu (0.1.2)
+      activemodel
+      activesupport
     orm_adapter (0.5.0)
     paperclip (4.3.7)
       activemodel (>= 3.2.0)
@@ -491,6 +503,7 @@ DEPENDENCIES
   spree_globalize!
   spree_i18n!
   spree_multi_currency!
+  spree_payu_integration!
   spree_recently_viewed!
   spree_reviews!
   spree_slider!

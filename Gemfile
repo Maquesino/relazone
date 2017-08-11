@@ -12,6 +12,7 @@ gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
 gem 'spree_social', github: 'spree-contrib/spree_social'
 gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: '3-1-stable'
 gem 'spree_reviews', github: 'spree-contrib/spree_reviews'
+gem 'spree_payu_integration', github: 'netguru/spree_payu_integration'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use postgresql as the database for Active Record

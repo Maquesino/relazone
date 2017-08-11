@@ -81,3 +81,8 @@ input[type=submit]:hover {
  background-color:#FF1493;
  border-radius:10px;
 }
+
+#products{
+ padding-top: 20px;
+ border-radius:10px;
+}
