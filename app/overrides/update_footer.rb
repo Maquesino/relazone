@@ -7,13 +7,13 @@ Deface::Override.new(:virtual_path => 'spree/layouts/spree_application',
          <div class = footer_info>
          <div class = container>
          <hr>
-         <div class = col-md-3>Oficina:<br>Calle siempre viva 123</div>
-         <div class = col-md-3>Atención al cliente:<br>tienda@relazone.com</div>
-         <div class = col-md-3>Tel: 000 11 001110<br>Horario de atención:<br>Lun-Dom<br>7:00 a.m - 6:00 p.m</div>
-         <div class = col-md-3>Siguenos!<br> Redes sociales:
-         <br><a href="#" class="fa fa-facebook fa-2x"></a>
-         <a href="#" class="fa fa-twitter fa-2x"></a>
-         <a href="#" class="fa fa-instagram fa-2x"></a>
+         <div class = col-md-3><h2>Oficina:</h2><h3>Calle siempre viva 123</h3></div>
+         <div class = col-md-3><h2>Atención al cliente:</h2><h3>tienda@relazone.com</h3><h3>Tel: 000 11 001110</h3></div>
+         <div class = col-md-3><h2>Horario de atención:</h2><h3>Lun-Dom</h3><h3>7:00 a.m - 6:00 p.m</h3></div>
+         <div class = col-md-3 id = social_footnet><h2>¡Siguenos!</h2><h3>Redes sociales:</h3>
+         <br><a href="#" class="fa fa-facebook fa-4x">&nbsp;&nbsp;</a>
+                 <a href="#" class="fa fa-twitter fa-4x">&nbsp;&nbsp;</a>
+              <a href="#" class="fa fa-instagram fa-4x">&nbsp;&nbsp;</a>
          </div>
          </div>
          </div>',

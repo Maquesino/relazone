@@ -21,7 +21,7 @@
 }
 
 #sidebar{
- background-image: url("https://preview.ibb.co/iwBdZv/theater_1713816_1920.jpg");
+ background-image: url("https://preview.ibb.co/jBhP7F/background_1409028.png");
 color:white;
  font-weight: bold;
  font-family: monospace;
@@ -36,9 +36,8 @@ color:white;
 }
 
 .footer_info {
-   font-size: 150%;
    color:black;
-   background-color:#C12957;  
+   background-color:#C71585;  
 }
 
 #mail_to_friend_sender_name,
@@ -76,4 +75,9 @@ input[type=submit]:hover {
 
 .alert-recaptcha_error{
     visibility: hidden;
+}
+
+#social_footnet{
+ background-color:#FF1493;
+ border-radius:10px;
 }
