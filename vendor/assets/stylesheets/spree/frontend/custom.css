@@ -38,6 +38,9 @@ color:white;
 .footer_info {
    color:black;
    background-color:#C71585;  
+   margin-top: 10px;
+   padding-bottom: 10px;
+   font-family:  Times, serif;
 }
 
 #mail_to_friend_sender_name,
@@ -85,4 +88,21 @@ input[type=submit]:hover {
 #products{
  padding-top: 20px;
  border-radius:10px;
+}
+
+.footer_text{
+
+
+ font-weight: bold;
+ font-family: monospace; 
+ margin-bottom: 5px;
+        
+}
+
+#reviews{
+     border-style: dashed;
+     border-width: 1px;
+     border-color:gray;
+     text-align: center;
+     padding-bottom:5px;
 }
